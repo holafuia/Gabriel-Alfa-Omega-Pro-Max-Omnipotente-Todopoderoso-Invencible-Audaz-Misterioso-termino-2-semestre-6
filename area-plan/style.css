@@ -1,3 +1,31 @@
 nav {
-    text-align:left;
+    text-align:right;
+}
+h1 {
+    font-size:50px;
+    text-align:center;
+}
+.image {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+h2 {
+    text-align:center;
+    font-size:35px;
+    color:blue;
+}
+p {
+    text-align:center;
+}
+.vision {
+    height:2px;
+    width:15%;
+    margin:auto;
+}
+.img{
+    padding-top:200px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
