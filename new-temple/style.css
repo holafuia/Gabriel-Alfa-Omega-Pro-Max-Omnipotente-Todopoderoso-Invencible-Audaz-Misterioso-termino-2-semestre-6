@@ -16,3 +16,9 @@ img {
     border-radius: 1rem;
     padding: 1rem;
 }
+.sub {
+    text-transform: uppercase;
+    color: saddlebrown;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
