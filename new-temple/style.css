@@ -1,4 +1,8 @@
 /* Element Selector */
+* {
+    color: #282828;
+    font-family: sans-serif;
+}
 h1 {
     text-transform: uppercase;
     color: peru;
@@ -21,4 +25,26 @@ img {
     color: saddlebrown;
     font-size: 1.2rem;
     font-weight: bold;
+}
+/* Group Selector */
+h1, .subtitle {
+    font-family:serif;
+}
+/* Pseudo Class Selector */
+a {
+    text-decoration: none;
+    color: rgb(163, 157, 111);
+}
+a:hover {
+    text-decoration: underline;
+}
+main {
+    width: 600px;
+    margin: auto;
+}
+#victor {
+    padding-bottom: 25px;
+}
+.space{
+    padding-top: 25px;
 }
