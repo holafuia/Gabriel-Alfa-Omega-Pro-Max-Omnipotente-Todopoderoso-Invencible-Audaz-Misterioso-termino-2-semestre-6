@@ -53,8 +53,12 @@ h2 {
 }
 #top {
     text-align: left;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
-#xd {
-    height: 80px;
+.xd {
+    padding-top: 28px;
+}
+.among {
+    display: flex;
 }
