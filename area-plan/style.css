@@ -15,9 +15,6 @@ h2 {
     font-size:35px;
     color:blue;
 }
-p {
-    text-align:center;
-}
 .vision {
     height:2px;
     width:15%;
@@ -32,4 +29,32 @@ p {
 .text {
     padding-left:620px;
     font-size:22px;
+}
+.head {
+    width: 100%;
+}
+#church {
+    height: 80px;
+    width: 150px;
+    text-align: center;
+}
+#la {
+    font-size: 18px;
+}
+#yes {
+    font-size: 20px;
+}
+#de {
+    font-size: 14px;
+}
+#a {
+    text-decoration: none;
+    color: black;
+}
+#top {
+    text-align: left;
+    position: relative;
+}
+#xd {
+    height: 80px;
 }
