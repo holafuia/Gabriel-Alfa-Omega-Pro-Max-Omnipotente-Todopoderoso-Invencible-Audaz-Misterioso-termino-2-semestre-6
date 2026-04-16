@@ -57,39 +57,59 @@
  }
 
 body {
-   height:10000px;
    margin: 0px;
 }
 #between {
   width: 100%;
-  height: 250px;
-  background-color: peru;
+  height: 100px;
+  background-color: #87CCFF;
+  text-align: center;
+  padding-top: 35px;
+}
+p {
+  font-size: 30px;
+}
+.hr {
+  background-color: black;
+  height: 2px;
+  width: 100%;
 }
 .sugoma {
    color: white;
    height: 90%;
    width: 22%;
-   background-color: navy;
+   background: linear-gradient(65deg, #0A009E, #0B4E85, #14188C)
 }
 #sugoma {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   background-color: navy;
   border-radius: 50%;
   display: flex;
+  place-items: center;
   justify-content: center;
+  border: 4px solid black;
+}
+#plus{
+  color: white;
+  text-decoration: none;
+  text-decoration: bold;
+  font-size: 70px;
 }
 #box{
-   height: 700px;
+   height: 650px;
    width: 100%;
    display: flex;
    justify-content: space-around;
    background-color: #87CCFF;
+   align-items: center;
 }
 
 footer{
-    text-align:center;
-    font-size:20px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #2F316B;
+    color: white;
 }
 #hero {
     height: 1000px;
@@ -97,11 +117,64 @@ footer{
     background: url("https://www.collegeatlas.org/wp-content/uploads/2017/03/byu-campus1.jpg");
     background-size: cover;
 }
+#s-hero{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.hero {
+  width: 25%;
+  height: 100%;
+  background-color: peru;
+}
+#transparent {
+  background-color: rgba(41, 69, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.p {
+  text-decoration: bold;
+  font-size: 50px;
+}
 #h1{
     text-transform: uppercase;
     font-size: 80px;
     text-align: center;
 }
-#main {
-  background: red;
+.boxtext {
+  font-size: 30px;
+  color: black;
+}
+.centerxd {
+  text-align: center;
+}
+#byuimage {
+  background: url("https://upload.wikimedia.org/wikipedia/commons/b/b2/Brigham_Young_University_medallion.svg");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+#tecimage {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_3Ye_xkfTFj9_toK1nAsGEbuzZmQrCUIQPQ&s");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#pacimage {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGJIjgUPIwg1EMfYhmnl-xv2FRXaQkdL2uAA&s");
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.unimages {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+#unis {
+  opacity: 0.0;
 }
