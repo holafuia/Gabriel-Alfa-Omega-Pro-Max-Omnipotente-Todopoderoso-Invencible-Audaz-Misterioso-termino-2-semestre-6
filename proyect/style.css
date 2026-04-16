@@ -145,7 +145,7 @@ footer{
 }
 .boxtext {
   font-size: 30px;
-  color: black;
+  color: white;
 }
 .centerxd {
   text-align: center;
@@ -177,4 +177,10 @@ footer{
 }
 #unis {
   opacity: 0.0;
+}
+.tecbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 59%;
 }
