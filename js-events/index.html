@@ -5,16 +5,19 @@
             JS events
         </title>
         <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
     </head>
-    <main>
+    <body>
         <header>
-            <div>
+            <div id="header">
+                <p>The Articles Of Faith</p>
             </div>
         </header>
-        <body>
+        <main>
             <!-- <button onclick="addNumbers(6,7)">Show result of 6 + 7</button> -->
-            <button>Alma 56:46</button>
-            <button></button>
-        </body>
-    </main>
+            <button class="article" onclick="article1()">Article of faith 1</button>
+            <button class="article" onclick="article2()">Article of faith 2</button>
+            <button class="article" onclick="article3()">Article of faith 3</button>
+        </main>
+    </body>
 </html>
