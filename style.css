@@ -1,0 +1,21 @@
+#h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+body {
+    margin: 150px;
+    background-color: #7DBFFF;
+}
+h1 {
+    text-decoration: bold;
+    text-decoration: overline;
+    text-decoration: italic;
+}
+#p {
+    display: flex;
+    text-align: center;
+}
+#links {
+    text-align: center;
+}

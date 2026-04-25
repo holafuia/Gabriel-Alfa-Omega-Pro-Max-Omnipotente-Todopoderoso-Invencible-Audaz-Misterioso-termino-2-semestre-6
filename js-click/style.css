@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+}
+button {
+    height: 75vh;
+    width: 75vh;
+    border-radius: 50%;
+    background: radial-gradient(rgba(162, 0, 255, 0.6), rgba(0, 13, 255, 0.6));
+    border-width: 0;
+}
+button:hover {
+    background: radial-gradient(rgba(253, 130, 255,0.3), rgba(104, 106, 252, 0.3));
+}
+span {
+    color: white;
+    font-size: 25px;
+}
+header {
+    justify-content: center;
+    display: flex;
+}
+#button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    width: 100vw;
+}
+#text {
+    display: flex;
+    justify-content: center;
+}
+#span {
+    font-size: 50px;
+}

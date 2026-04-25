@@ -3,4 +3,28 @@ header {
     display: flex;
     height: 80px;
     background-color: peru;
+    text-align: center;
+    justify-content: center;
+}
+body {
+    margin: 0;
+}
+#header {
+    font-size: 25px;
+    text-decoration: bold;
+    letter-spacing: 3px;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.buttons {
+    height: 60px;
+    width: 20%;
+    background-color: #873709;
+    font-size: 30px;
+    border-color: black;
+    border-width: 4px;
+    border-style: solid;
 }
