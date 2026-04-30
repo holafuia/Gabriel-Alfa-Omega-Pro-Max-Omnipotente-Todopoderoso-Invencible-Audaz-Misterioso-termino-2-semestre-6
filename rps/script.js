@@ -31,6 +31,7 @@ function rock() {
 }
 function paper() {
     const number = random();
+    funcionality(number);
     console.log(number);
     if (number <= 0.33) {
         let correct = document.querySelector("#spans");
@@ -45,6 +46,7 @@ function paper() {
 }
 function scissors() {
     const number = random();
+    funcionality(number);
     console.log(number);
     if (number <= 0.33) {
         let incorrect = document.querySelector("#spans");
