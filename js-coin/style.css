@@ -1,5 +1,5 @@
 body {
-    background-color: peru;
+    background-color: #CFCFCF;
     margin: 0;
 }
 #result {
@@ -16,7 +16,6 @@ body {
 #coin {
     height: 60vh;
     width: 100vw;
-    background-color: blue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,22 +23,24 @@ body {
 #footer {
     height: 20vh;
     width: 100vw;
-    background-color: red;
+    background-color: #7091FF;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: -5vw;
 }
 .flip {
     height: 15vh;
-    width: 25vw;
+    width: 20vw;
     font-size: 5vh;
     border-radius: 3%;
+    background-color: #C7C7C7;
 }
 #headtail {
     border-radius: 50%;
     height: 55vh;
     width: 55vh;
-    background-color: peru;
+    background-color: #7A7A7A;
     background-image:;
     background-size: cover;
     background-position: center;
@@ -48,4 +49,7 @@ body {
 }
 #correct {
     font-size: 8vh;
+}
+.flip:hover {
+    background-color: #B0B0B0;
 }
