@@ -1,0 +1,7 @@
+.instrument {
+    background-color: whitesmoke;
+}
+.active {
+    background-color: black;
+    color: white;
+}

@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function(){
         }
         let day = time.getDay();
         console.log(day);
+        // ||
         // array
         return false;
     }
