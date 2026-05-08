@@ -1,7 +1,18 @@
 .instrument {
     background-color: whitesmoke;
+    height: 20vh;
+    width: 25vh;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .active {
     background-color: black;
     color: white;
+}
+.beat {
+    display: flex;
+    justify-content: space-around;
 }
