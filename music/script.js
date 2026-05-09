@@ -23,6 +23,18 @@ document.addEventListener("DOMContentLoaded", function(){
     const yuh = new Audio("sounds/yuh.wav");
     const yuhDiv = document.querySelector("#yuh");
 
+    const audio1 = new Audio("sounds/audio1.mp3");
+    const audio1Div = document.querySelector("#audio1");
+
+    const audio2 = new Audio("sounds/audio2.mp3");
+    const audio2Div = document.querySelector("#audio2");
+
+    const audio3 = new Audio("sounds/audio3.mp3");
+    const audio3Div = document.querySelector("#audio3");
+
+    const audio4 = new Audio("sounds/audio4.mp3");
+    const audio4Div = document.querySelector("#audio4");
+
     window.addEventListener("keydown", function(event){
         if (event.key == "a") {
             kick.currentTime = 0;
@@ -56,6 +68,22 @@ document.addEventListener("DOMContentLoaded", function(){
             yuh.currentTime = 0;
             yuh.play();
             yuhDiv.classList.add("active");
+        } else if (event.key == "z") {
+            audio1.currentTime = 0;
+            audio1.play();
+            audio1Div.classList.add("active");
+        } else if (event.key == "x") {
+            audio2.currentTime = 0;
+            audio2.play();
+            audio2Div.classList.add("active");
+        } else if (event.key == "c") {
+            audio3.currentTime = 0;
+            audio3.play();
+            audio3Div.classList.add("active");
+        } else if (event.key == "v") {
+            audio4.currentTime = 0;
+            audio4.play();
+            audio4Div.classList.add("active");
         }
     })
     window.addEventListener("keyup", function(event) {
@@ -75,6 +103,14 @@ document.addEventListener("DOMContentLoaded", function(){
             tomDiv.classList.remove("active");
         } else if (event.key == "r") {
             yuhDiv.classList.remove("active");
+        } else if (event.key == "z") {
+            audio1Div.classList.remove("active");
+        } else if (event.key == "x") {
+            audio2Div.classList.remove("active");
+        } else if (event.key == "c") {
+            audio3Div.classList.remove("active");
+        } else if (event.key == "v") {
+            audio4Div.classList.remove("active");
         }
     })
 })
