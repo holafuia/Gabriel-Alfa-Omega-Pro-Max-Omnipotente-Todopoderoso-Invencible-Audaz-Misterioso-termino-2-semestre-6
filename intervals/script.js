@@ -1,23 +1,33 @@
 let counter;
 const alarm = new Audio("sound/alarm.mp3");
+let back = 60;
 document.addEventListener("DOMContentLoaded", function() {
     document.querySelector("#button1").onclick = function(){
         counter = 60;
-        document.querySelector("h1").innerHTML = 60;
+        document.querySelector("h1").innerHTML = 60/60;
     }
     document.querySelector("#button2").onclick = function(){
         counter = 300;
-        document.querySelector("h1").innerHTML = 300;
+        document.querySelector("h1").innerHTML = 300/60;
     }
     document.querySelector("#button3").onclick = function (){
         counter = 600;
-        document.querySelector("h1").innerHTML = 600;
+        document.querySelector("h1").innerHTML = 600/60;
     }
 
     let count = function() {
         if (counter != 0) {
             counter--;
-            document.querySelector("h1").innerHTML = counter;
+            if (back != 0) {
+                back--;
+            } else {
+                back = 60;
+            }
+            if (back > 9) {
+                document.querySelector("h1").innerHTML = Math.floor(counter/60) + ":" + back;
+            } else {
+                document.querySelector("h1").innerHTML = Math.floor(counter/60) + ":0" + back;
+            }
         } else if (counter == 0) {
             document.querySelector("h1").innerHTML = 0;
             alarm.currentTime = 0;

@@ -13,4 +13,26 @@ body {
     flex-direction: column;
     justify-content: space-around;
     height: 100vh;
+    background-color: #696969;
+}
+.bu {
+    width: 20vw;
+    height: 12vh;
+    font-size: 5vh;
+    background-color: #C20000;
+}
+.bu:hover {
+    background-color: #9E0000;
+}
+h1 {
+    font-size: 20vh;
+}
+#start {
+    width: 20vw;
+    height: 12vh;
+    font-size: 5vh;
+    background-color: #00BD33;
+}
+#start:hover {
+    background-color: #009E28;
 }
